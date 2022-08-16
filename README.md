@@ -1,2 +1,0 @@
-# GMRAN.github.io
-Hello 
