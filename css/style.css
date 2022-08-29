@@ -65,7 +65,7 @@ body {
     }
     .special-heading + p {
         margin-top: -20px;
-        
+
     }
 }
 /* end components */
@@ -235,3 +235,31 @@ body {
     font-size: 17px;
 }
 /* End Features */
+
+/* Start Services */
+.Services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.Services .Services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 100px;
+}
+
+.Services .Services-content .srv {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+@media (max-width: 767px) {
+    .Services .Services-content .srv {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* End Services */
