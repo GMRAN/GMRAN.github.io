@@ -140,7 +140,7 @@ body {
 }
 
 .header .links ul::before {
-  content: "";
+  content: '';
   border-width: 10px;
   border-style: solid;
   border-color: transparent transparent #132c58 transparent;
@@ -176,7 +176,7 @@ body {
 .landing .intro-text {
   position: absolute;
   left: 50%;
-  top:  50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 320px;
@@ -216,7 +216,6 @@ body {
 .features .feat {
   padding: 20px;
   text-align: center;
-
 }
 
 .features .feat h3 {
@@ -280,7 +279,7 @@ body {
 }
 
 .services .services-content .image::before {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   background-color: var(--main-color);
@@ -367,7 +366,7 @@ body {
 }
 
 .about .about-content .image::before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: #ebeced;
   width: 100px;
@@ -378,7 +377,7 @@ body {
 }
 
 .about .about-content .image::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 120px;
   height: 300px;
